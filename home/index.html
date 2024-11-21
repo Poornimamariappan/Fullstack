@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+  
+      <nav class="navbar">
+        <div class="logo">
+            <img src="images/VTS_Logo_pages-to-jpg-0001-removebg-preview.png" alt="VTS Logo" width="90px" height="60px">
+        </div>
+        <ul class="nav-ul">
+            <li><a href="#about-course">About</a></li>
+            <li class="dropdown">
+                <a href="#">Our Trainings</a>
+                <div class="drop">
+                    <ul>
+                        <li><a href="/course4/index.html"><b>Java Full Stack</b></a></li>
+                        <li><a href="/index.html"><b>Python Full Stack</b></a></li>
+                        <li><a href="#ui-ux-design"><b>UI & UX Design</b></a></li>
+                    </ul>
+                </div>  
+            </li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+     
+    <section class="banner-section">
+        <div class="slideshow-container" >
+
+            <div class="mySlides fade">
+                <img src="images/img1.jpg" style="width:100%" height="450px" >
+            </div>
+            <div class="mySlides fade">
+                <img src="images/hm.jpg" style="width:100%" height="450px" >
+            </div>
+            <div class="mySlides fade">
+                <img src="images/home.jpg" style="width:100%" height="450px">
+            </div>
+            <div class="mySlides fade">
+                <img src="images/java.jpg" style="width:100%" height="450px">
+            </div>
+            <a class="prev" onclick="plusSlides(-1)" style="color:blue;">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)" style="color: blue;">&#10095;</a>
+        </div>
+        <br>
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+    </section>
+     <!-- About Section -->
+     <header id="about-course" >
+        <h2 style="color: white; ">About Us</h2>
+     </header>
+    <section class="about-section" >
+        <div class="container">
+          <div class="about-image">
+            <img src="images/about.jpg" alt="Java Backend Developer" style="margin-top: 150px;">
+          </div>
+          <div class="about-text">
+            
+            <p>
+                Our VTS company, We are dedicated to
+                empowering businesses on their journey of digital transformation.With
+                cutting-edge technologies and a team of skilled professionals.
+            </p>
+            <!-- <div class="key-features">
+              <div class="features">
+                <h3>Spring Framework</h3>
+                <p>Master Spring Boot for creating high-performance backend services.</p>
+              </div>
+              <div class="features">
+                <h3>Database Management</h3>
+                <p>Understand database design and integration with Java applications.</p>
+              </div>
+              <div class="features">
+                <h3>Cloud Deployment</h3>
+                <p>Deploy applications on cloud platforms like AWS and Azure.</p>
+              </div>
+            </div> -->
+          </div>
+        </div>
+      </section>
+      <!-- <header  > -->
+        <!-- <div class="container"> -->
+            <!-- <h1 style="margin-left: 400px;">Developer Course </h1> -->
+            <!-- <p>Learn the skills you need to succeed in tech!</p> -->
+        <!-- </div> -->
+    <!-- </header> -->
+    <header class="header">
+        <h1>Developer Courses</h1>
+      </header>
+    <div class="container">
+       
+    
+        <div class="courses">
+          <!-- Python Full Stack -->
+          <div class="course-card">
+            <img src="images/python.jpg" alt="Python Full Stack">
+            <h2>Python Full Stack</h2>
+            <p>Learn front-end, back-end, and databases to build powerful applications using Python.</p>
+            <a href="https://www.w3schools.com/python/" class="btn">Learn More</a>
+          </div>
+          
+          <!-- Java Full Stack -->
+          <div class="course-card">
+            <img src="images/java.jpg" alt="Java Full Stack">
+            <h2>Java Full Stack</h2>
+            <p>Master Java, Spring Framework, and modern front-end technologies like React or Angular.</p>
+            <a href="https://www.w3schools.com/java/" class="btn">Learn More</a>
+          </div>
+          
+          <!-- UI & UX Design -->
+          <div class="course-card">
+            <img src="images/javas.jpg" alt="UI & UX Design">
+            <h2>UI & UX Design</h2>
+            <p>Design stunning user interfaces and seamless experiences using the latest tools.</p>
+            <a href="https://www.w3schools.com/css/css3_user_interface.asp" class="btn">Learn More</a>
+          </div>
+        </div>
+      </div>
+
+    <!-- <main>
+        <section class="course-section">
+            <div class="image-side">
+                <img src="images/python.jpg" alt="Frontend Development">
+            </div>
+            <div class="content-side">
+                <h2>Python Full Stack</h2>
+                <p>Expertise in frontend technologies (HTML, CSS, JavaScript), database management (SQL/NoSQL), and API development.</p>
+            </div>
+        </section>
+
+        <section class="course-section">
+            <div class="image-side">
+                <img src="images/java.jpg" alt="java Backend">
+            </div>
+            <div class="content-side">
+                <h2>Java Full Stack</h2>
+                <p>Proficiency in Java, Spring Boot, Angular/React, REST APIs, microservices, and database management.</p>
+            </div>
+        </section>
+
+        <section class="course-section">
+            <div class="image-side">
+                <img src="images/javas.jpg" alt="Java Development">
+            </div>
+            <div class="content-side">
+                <h2>UI & UX Design</h2>
+                <p>Expertise in user-centered design, wireframing, prototyping, design tools (Figma/Adobe XD), and usability testing.</p>
+            </div>
+        </section>
+    </main> -->
+
+      <section class="footer" id="contact">
+        <div class="footer-container">
+            <div class="footer-content" id="follow-us">
+                <div class="footer-logo">
+                    <span>Vetri Technology Solutions</span>
+                </div>
+
+                <li><a href="#"><i class="fab fa-facebook" id="face"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-whatsapp" id="what"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram" id="insta"></i></a></li>
+                <!-- <li><a href="#"><i class="fab fa-linkedin"></i></a></li> -->
+            </div>
+            <div class="footer-content" id="link">
+                <h3 class="footer-h3">course</h3>
+                <ul class="list">
+                    <table>
+                        <td>
+                            <li><a href="">Java Full Stack</a></li>
+                        </td>
+                        <td>
+                            <li><a href="">Python Full Stack</a></li>
+                        </td>
+                        <td>
+                            <li><a href="#">UI & UX Design</a></li>
+                        </td>
+                        <!-- <td>
+                            <li><a href="#">Java Backend Developer</a></li>
+                        </td>
+                        <td>
+                            <li><a href="#">MERN Stack Developer</a></li>
+                        </td> -->
+                    </table>
+                </ul>
+            </div>
+           
+
+            <div class="footer-content" id="contact-us">
+                <h3 class="footer-h3" id="contact-us">Contact Us</h3>
+                <p><i class="fa-solid fa-envelope"></i> Email: business@vetriit.com</p>
+                <p><i class="fa-solid fa-phone"></i> Phone: +91-8438558527</p>
+            </div>
+        </div>
+        <!-- <div class="bottom">
+            <p>
+                <marquee>VETRI IT SYSTEMS</marquee>
+            </p>
+        </div> -->
+    </section>
+</body>
+<script>
+      let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) { slideIndex = 1 }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+            setTimeout(showSlides, 2000); 
+        }  
+
+</script>
+</html>
